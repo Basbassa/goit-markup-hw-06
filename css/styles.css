@@ -44,6 +44,7 @@ a {
   --color-nav-border: #ccc;
   --color-social-icons: rgba(175, 177, 184, 1);
   --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
+  --color-footer-mail-border: rgba(255, 255, 255, 0.3);
 }
 
 .box-h1 {
@@ -597,4 +598,37 @@ a {
   background-color: var(--color-white);
   border-radius: 50%;
   cursor: pointer;
+}
+
+.newsletter {
+  margin-left: 78px;
+}
+
+.label-newsletter {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-white);
+}
+
+.input-footer {
+  background-color: var(--color-h1);
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid var(--color-footer-mail-border);
+  color: var(--color-addres-grey);
+}
+
+.button-newsletter {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0, 6em;
+  color: var(--color-white);
+  background-color: var(--color-mainblue);
+  border-radius: 4px;
+  padding: 10px 42px;
+  border: 0;
+  margin-left: 12px;
 }
