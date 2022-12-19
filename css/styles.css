@@ -609,6 +609,7 @@ a {
   font-weight: 700;
   font-size: 14px;
   color: var(--color-white);
+  text-transform: uppercase;
 }
 
 .input-footer {
@@ -631,4 +632,13 @@ a {
   padding: 10px 42px;
   border: 0;
   margin-left: 12px;
+
 }
+
+.svg-send {
+  fill: var(--color-white);
+  position: relative;
+  left: 8px;
+  top: 6px;
+}
+
