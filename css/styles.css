@@ -183,7 +183,7 @@ a {
   position: relative;
 }
 
-.box-figure:hover .overlay-figure {
+.schedule-li:hover .box-figure .overlay-figure {
   transform: translatey(0);
 }
 
@@ -632,7 +632,6 @@ a {
   padding: 10px 42px;
   border: 0;
   margin-left: 12px;
-
 }
 
 .svg-send {
@@ -641,4 +640,3 @@ a {
   left: 8px;
   top: 6px;
 }
-
