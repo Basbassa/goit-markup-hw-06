@@ -357,7 +357,7 @@
           <form>
             <label>
               <p class="label-newsletter">Zapisz się do newslettera</p>
-              <input class="input-footer" type="text" name="mailto" placeholder="E-mail" />
+              <input class="input-footer" type="text" name="mailto" placeholder="E-mail" required />
             </label>
             <button class="button-newsletter" type="submit">
               Zapisz się
@@ -371,6 +371,36 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <h3 class="h3-form">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="modal-form">
+          <label>
+            imie
+            <input type="email" name="name" required />
+          </label>
+
+          <label>
+            telefon
+            <input type="password" name="tel" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Komendarz
+            <textarea name="Komendarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+          </label>
+
+          <label class="checkbox-modal">
+            <input type="checkbox" name="hobby" value=" " />
+            Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+          </label>
+
+          <button type="submit">Wyślij</button>
+        </form>
+
         <button class="modal-close" data-modal-close>&#10008;</button>
       </div>
     </div>

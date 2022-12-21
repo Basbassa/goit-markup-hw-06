@@ -45,6 +45,8 @@ a {
   --color-social-icons: rgba(175, 177, 184, 1);
   --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
   --color-footer-mail-border: rgba(255, 255, 255, 0.3);
+  --color-border-form-modal: rgba(33, 33, 33, 0.2)
+
 }
 
 .box-h1 {
@@ -639,4 +641,46 @@ a {
   position: relative;
   left: 8px;
   top: 6px;
+}
+
+.h3-form {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+
+
+.modal-form {
+  
+
+}
+
+.modal-form input {
+  background-color: yellow;
+  width: 448px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid var(--color-border-form-modal);
+  border-radius: 4px;
+
+  
+} 
+
+.checkbox-modal input {
+  width: 16px;
+  height: 15px;
+
+
+}
+
+textarea {
+  margin-top: 4px;
+  margin-left: 40px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid var(--color-border-form-modal);
+  width: 448px;
+  height: 120px;
+  border-radius: 4px;
 }
