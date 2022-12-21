@@ -584,6 +584,7 @@ a {
   transition-property: transform;
   transition-duration: 1s;
   transition-timing-function: ease;
+  z-index: 2;
 }
 
 .backdrop.is-hidden .modal {
@@ -600,12 +601,14 @@ a {
   background-color: var(--color-white);
   border-radius: 50%;
   cursor: pointer;
+  z-index: 2;
 }
 
 .newsletter {
   margin-left: 78px;
 }
 
+/* było na P linijka 359 */
 .label-newsletter {
   margin-bottom: 20px;
   font-weight: 700;
@@ -646,41 +649,73 @@ a {
 .h3-form {
   margin-top: 40px;
   margin-left: 40px;
-}
-
-
-
-.modal-form {
+  text-align: center;
   
-
 }
+
+
+
 
 .modal-form input {
-  background-color: yellow;
+  background-color: navajowhite;
   width: 448px;
   height: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
   border: 1px solid var(--color-border-form-modal);
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0, 1em;
+  color: var(--color-description-small-letters);
+
 
   
 } 
 
-.checkbox-modal input {
-  width: 16px;
-  height: 15px;
-
-
-}
 
 textarea {
   margin-top: 4px;
-  margin-left: 40px;
   display: block;
   box-sizing: border-box;
   border: 1px solid var(--color-border-form-modal);
   width: 448px;
   height: 120px;
+  resize: none;
   border-radius: 4px;
+}
+
+.checkbox-modal {
+  
+}
+
+input .checkbox-modal  {
+  width: 16px;
+  height: 15px;
+  
+
+}
+
+
+.form-btn-submit {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--color-mainblue);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0, 6em;
+  margin-top: 30px;
+  position: relative;
+  transform: translateX(60%); 
+  outline: none;
+  border: 0;
+
+
+ 
+}
+
+.label-identyfications {
+  margin: 40px;
 }

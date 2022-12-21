@@ -356,7 +356,7 @@
         <div class="newsletter">
           <form>
             <label>
-              <p class="label-newsletter">Zapisz się do newslettera</p>
+              Zapisz się do newslettera
               <input class="input-footer" type="text" name="mailto" placeholder="E-mail" required />
             </label>
             <button class="button-newsletter" type="submit">
@@ -372,33 +372,50 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h3 class="h3-form">Zostaw swoje dane w formularzu poniżej</h3>
-        <form class="modal-form">
-          <label>
-            imie
-            <input type="email" name="name" required />
-          </label>
+        <form>
+          <div class="label-identyfications">
+            <label class="modal-form">
+              <svg width="12" height="12">
+                <use href="./images/form-icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+              Imie
+              <input type="text" name="name" required />
+            </label>
 
-          <label>
-            telefon
-            <input type="password" name="tel" required />
-          </label>
+            <label class="modal-form">
+              <svg width="13" height="13">
+                <use href="./images/form-icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
 
-          <label>
-            Email
-            <input type="email" name="email" required />
-          </label>
+              telefon
+              <input type="tel" name="tel" required pattern="[0-9]{3}[0-9]{3}[0-9]{3}" />
+            </label>
 
-          <label>
-            Komendarz
-            <textarea name="Komendarz" rows="5" placeholder="Wprowadź tekst"></textarea>
-          </label>
+            <label class="modal-form">
+              <svg width="15" height="12">
+                <use href="./images/form-icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
 
-          <label class="checkbox-modal">
-            <input type="checkbox" name="hobby" value=" " />
-            Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-          </label>
+              Email
+              <input type="email" name="email" required />
+            </label>
 
-          <button type="submit">Wyślij</button>
+            <label class="modal-form">
+              Komendarz
+              <textarea name="Komendarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+            </label>
+
+            <div class="checkbox-modal">
+              <label class="checkbox">
+                <input type="checkbox" name="hobby" value=" " />
+                Oświadczam iż akceptuję <a class=" " href="#">Regulamin</a> i
+                <a class=" " href="#">Politykę Prywatności</a>
+                .
+              </label>
+
+              <button class="form-btn-submit" type="submit">Wyślij</button>
+            </div>
+          </div>
         </form>
 
         <button class="modal-close" data-modal-close>&#10008;</button>
