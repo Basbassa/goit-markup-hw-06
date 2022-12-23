@@ -263,6 +263,8 @@ a {
 
 .font-footer-logo {
   font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .web {
@@ -271,6 +273,7 @@ a {
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
+  
 }
 
 .studio {
@@ -472,6 +475,7 @@ a {
 }
 
 .h2-fotter {
+  padding-top: 20px;
   color: var(--color-white);
   font-weight: 700;
   font-size: 14px;
@@ -605,11 +609,13 @@ a {
 
 .newsletter {
   margin-left: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* było na P linijka 359 */
 .label-newsletter {
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   color: var(--color-white);
@@ -623,6 +629,8 @@ a {
   border-radius: 4px;
   border: 1px solid var(--color-footer-mail-border);
   color: var(--color-addres-grey);
+  margin-top: 20px;
+  outline: none;
 }
 
 .button-newsletter {
@@ -636,13 +644,15 @@ a {
   padding: 10px 42px;
   border: 0;
   margin-left: 12px;
+  cursor: pointer;
+
 }
 
 .svg-send {
   fill: var(--color-white);
   position: relative;
   left: 8px;
-  top: 6px;
+  top: 5px;
 }
 
 .h3-form {
@@ -668,6 +678,24 @@ a {
   line-height: 1.1;
   letter-spacing: 0, 1em;
   color: var(--color-description-small-letters);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.modal-form {
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.modal-form:hover,
+.modal-form:focus,
+.modal-form:active {
+  fill: var(--color-mainblue);
+  border-color: var(--color-mainblue);
 }
 
 .icons-form {
@@ -675,6 +703,14 @@ a {
   bottom: -34px;
   left: 10px;
   z-index: 5;
+}
+
+.icons-form:hover,
+.icons-form:focus,
+.icons-form:active {
+  fill: var(--color-mainblue);
+  border-color: var(--color-mainblue);
+  outline: none;
 }
 
 textarea {
@@ -686,6 +722,9 @@ textarea {
   height: 120px;
   resize: none;
   border-radius: 4px;
+  padding: 12px 16px;
+  outline: none;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .checkbox-modal {
@@ -724,6 +763,8 @@ input .checkbox-modal {
   transform: translateX(50%);
   outline: none;
   border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .label-identyfications {
