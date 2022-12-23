@@ -656,7 +656,7 @@ a {
 }
 
 .modal-form input {
-  background-color: navajowhite;
+  background-color: var(--color-white);
   width: 448px;
   height: 40px;
   border: 1px solid var(--color-border-form-modal);
@@ -728,7 +728,4 @@ input .checkbox-modal {
 
 .label-identyfications {
   margin: 40px;
-}
-
-.checkbox {
 }
