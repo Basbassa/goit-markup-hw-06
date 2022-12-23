@@ -45,8 +45,7 @@ a {
   --color-social-icons: rgba(175, 177, 184, 1);
   --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
   --color-footer-mail-border: rgba(255, 255, 255, 0.3);
-  --color-border-form-modal: rgba(33, 33, 33, 0.2)
-
+  --color-border-form-modal: rgba(33, 33, 33, 0.2);
 }
 
 .box-h1 {
@@ -650,11 +649,7 @@ a {
   margin-top: 40px;
   margin-left: 40px;
   text-align: center;
-  
 }
-
-
-
 
 .modal-form input {
   background-color: navajowhite;
@@ -667,11 +662,7 @@ a {
   line-height: 1.1;
   letter-spacing: 0, 1em;
   color: var(--color-description-small-letters);
-
-
-  
-} 
-
+}
 
 textarea {
   margin-top: 4px;
@@ -685,16 +676,24 @@ textarea {
 }
 
 .checkbox-modal {
-  
+  padding-top: 20px;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-description-small-letters);
+  line-height: 1.7;
+  letter-spacing: 0, 3em;
 }
 
-input .checkbox-modal  {
+.links-checbox {
+  color: var(--color-mainblue);
+  text-decoration: underline;
+}
+
+input .checkbox-modal {
   width: 16px;
   height: 15px;
-  
-
 }
-
 
 .form-btn-submit {
   width: 200px;
@@ -708,14 +707,14 @@ input .checkbox-modal  {
   letter-spacing: 0, 6em;
   margin-top: 30px;
   position: relative;
-  transform: translateX(60%); 
+  transform: translateX(50%);
   outline: none;
   border: 0;
-
-
- 
 }
 
 .label-identyfications {
   margin: 40px;
+}
+
+.checkbox {
 }
