@@ -631,6 +631,7 @@ a {
   color: var(--color-addres-grey);
   margin-top: 20px;
   outline: none;
+  padding: 16px 15px;
 }
 
 .button-newsletter {
