@@ -651,17 +651,30 @@ a {
   text-align: center;
 }
 
+.modal-form {
+  position: relative;
+}
+
 .modal-form input {
   background-color: navajowhite;
   width: 448px;
   height: 40px;
   border: 1px solid var(--color-border-form-modal);
   border-radius: 4px;
+  padding-left: 40px;
+  margin-top: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1;
   letter-spacing: 0, 1em;
   color: var(--color-description-small-letters);
+}
+
+.icons-form {
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
+  z-index: 5;
 }
 
 textarea {
@@ -706,6 +719,7 @@ input .checkbox-modal {
   line-height: 1.8;
   letter-spacing: 0, 6em;
   margin-top: 30px;
+  margin-bottom: 40px;
   position: relative;
   transform: translateX(50%);
   outline: none;
