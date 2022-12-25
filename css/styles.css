@@ -708,7 +708,7 @@ a {
   fill: var(--color-mainblue);
 }
 
-.try:focus-within {
+.focus-fill-ic:focus-within {
   fill: var(--color-mainblue);
 }
 
@@ -783,4 +783,9 @@ input .checkbox-modal {
 
 .label-identyfications {
   margin: 40px;
+}
+
+.xxx {
+  position: relative;
+  z-index: 3;
 }
