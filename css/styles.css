@@ -690,12 +690,31 @@ a {
   outline: none;
 }
 
+/*
 .modal-form:hover,
 .modal-form:focus,
 .modal-form:active {
   fill: var(--color-mainblue);
   border-color: var(--color-mainblue);
+} */
+
+.modal-form:hover {
+  fill: var(--color-mainblue);
 }
+
+.modal-form:hover .my-input {
+  border-color: var(--color-mainblue);
+}
+
+.my-input:focus {
+  border-color: var(--color-mainblue);
+}
+
+.modal-form:has (> .my-input:focus),
+.modal-form:has (> .my-input:active) {
+fill: var(--color-mainblue);
+}
+
 
 .icons-form {
   position: absolute;
