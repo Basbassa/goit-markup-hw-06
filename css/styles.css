@@ -785,11 +785,6 @@ input .checkbox-modal {
   margin: 40px;
 }
 
-/*
-.xxx {
-  position: relative;
-  z-index: 3; 
-} */
 .checkbox {
   position: relative;
 }
@@ -813,16 +808,3 @@ input .checkbox-modal {
 .checkbox input[type="checkbox"]:checked + svg {
   opacity: 1;
 }
-
-/*
-
-.check-input-svg input[type="checkbox"]::before {
-  content: "";
-   background-color: var(--color-mainblue);
-  fill: var(--color-white);
-  width: 16px;
-  height: 15px;
-  position: absolute;
-  left: 0;
-  top: 6%;
-} */
