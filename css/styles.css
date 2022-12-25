@@ -121,6 +121,8 @@ a {
 .button-main:hover,
 .button-main:focus {
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portf {
@@ -146,6 +148,8 @@ a {
   cursor: pointer;
   color: var(--color-white);
   box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 0.14);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .schedule-li {
@@ -186,6 +190,8 @@ a {
 
 .schedule-li:hover .box-figure .overlay-figure {
   transform: translatey(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .uppercase {
@@ -195,6 +201,8 @@ a {
 .all-links :focus {
   color: var(--color-focus);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description-h1 {
@@ -317,6 +325,8 @@ a {
 
 .nav-ul :hover {
   color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active-link {
@@ -519,6 +529,8 @@ a {
 .clients-icons:active {
   fill: var(--color-mainblue);
   border-color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-shadow-main {
@@ -527,10 +539,14 @@ a {
 
 .box-shadow-portf:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.06);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-shadow-butt-portf:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-all {
@@ -555,6 +571,8 @@ a {
 .footer-sm-icons:hover,
 .footer-sm-icons:focus {
   background-color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -692,20 +710,28 @@ a {
 
 .modal-form:hover {
   fill: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form:hover .my-input {
   border-color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .my-input:focus {
   border-color: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form:has (> .my-input:hover),
 .modal-form:has (> .my-input:focus),
 .modal-form:has (> .my-input:active) {
   fill: var(--color-mainblue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .focus-fill-ic:focus-within {
@@ -725,6 +751,8 @@ a {
   fill: var(--color-mainblue);
   border-color: var(--color-mainblue);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea {
