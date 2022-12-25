@@ -690,17 +690,10 @@ a {
   outline: none;
 }
 
-/*
-.modal-form:hover,
-.modal-form:focus,
-.modal-form:active {
-  fill: var(--color-mainblue);
-  border-color: var(--color-mainblue);
-} */
-
 .modal-form:hover {
   fill: var(--color-mainblue);
 }
+
 
 .modal-form:hover .my-input {
   border-color: var(--color-mainblue);
@@ -710,6 +703,7 @@ a {
   border-color: var(--color-mainblue);
 }
 
+.modal-form:has (> .my-input:hover),
 .modal-form:has (> .my-input:focus),
 .modal-form:has (> .my-input:active) {
 fill: var(--color-mainblue);
