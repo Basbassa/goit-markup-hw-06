@@ -798,12 +798,31 @@ input .checkbox-modal {
   margin-right: 9px;
 }
 
-.none {
+.check-input-svg {
   background-color: var(--color-mainblue);
+  fill: var(--color-white);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 6%;
+  opacity: 0;
+  border-radius: 2px;
+}
+
+.checkbox input[type="checkbox"]:checked + svg {
+  opacity: 1;
+}
+
+/*
+
+.check-input-svg input[type="checkbox"]::before {
+  content: "";
+   background-color: var(--color-mainblue);
   fill: var(--color-white);
   width: 16px;
   height: 15px;
   position: absolute;
   left: 0;
   top: 6%;
-}
+} */
