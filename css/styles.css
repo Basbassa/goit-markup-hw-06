@@ -694,7 +694,6 @@ a {
   fill: var(--color-mainblue);
 }
 
-
 .modal-form:hover .my-input {
   border-color: var(--color-mainblue);
 }
@@ -706,9 +705,12 @@ a {
 .modal-form:has (> .my-input:hover),
 .modal-form:has (> .my-input:focus),
 .modal-form:has (> .my-input:active) {
-fill: var(--color-mainblue);
+  fill: var(--color-mainblue);
 }
 
+.try:focus-within {
+  fill: var(--color-mainblue);
+}
 
 .icons-form {
   position: absolute;
